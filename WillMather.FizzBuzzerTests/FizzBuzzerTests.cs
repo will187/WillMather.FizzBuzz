@@ -12,6 +12,7 @@ public class FizzBuzzerTests
     [TestCase(5, "Buzz")]
     [TestCase(6, "Fizz")]
     [TestCase(10, "Buzz")]
+    [TestCase(15, "FizzBuzz")]
     public void FizzBuzzer_GivenIntInput_ReturnsExpectedString(int input, string expected)
     {
         // Arrange
