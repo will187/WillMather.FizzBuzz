@@ -7,6 +7,7 @@ namespace WillMather.FizzBuzzerTests;
 public class FizzBuzzerTests
 {
     [TestCase(1, "1")]
+    [TestCase(2, "2")]
     public void FizzBuzzer_GivenIntInput_ReturnsExpectedString(int input, string expected)
     {
         // Arrange
