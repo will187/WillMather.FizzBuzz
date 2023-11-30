@@ -10,11 +10,11 @@ public class FizzBuzzer
 {
   public string RunFzzBuzz(int input)
   {
-        if(input == 3)
+        if(input % 3 == 0)
         {
             return "Fizz";
         }
-        if(input == 5)
+        if(input % 5 == 0)
         {
             return "Buzz";
         }
