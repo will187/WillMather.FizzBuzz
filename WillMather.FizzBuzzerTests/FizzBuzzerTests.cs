@@ -16,6 +16,6 @@ public class FizzBuzzerTests
         string actual = fizzbuzzer.RunFzzBuzz(input);
         
         // Assert
-        Assert.Equals(expected, actual);
+        Assert.That(actual, Is.EqualTo(expected));
     }
 }
