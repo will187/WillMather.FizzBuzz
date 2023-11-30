@@ -10,6 +10,6 @@ public class FizzBuzzer
 {
   public string RunFzzBuzz(int input)
   {
-        return "1";
+        return input.ToString();
   }
 }
