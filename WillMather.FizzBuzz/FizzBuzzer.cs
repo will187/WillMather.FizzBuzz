@@ -8,7 +8,7 @@ namespace WillMather.FizzBuzz;
 
 public class FizzBuzzer
 {
-  public string RunFzzBuzz(int input)
+  public string RunFizzBuzz(int input)
   {
         string result = string.Empty;
 

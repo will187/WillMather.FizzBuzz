@@ -19,7 +19,7 @@ public class FizzBuzzerTests
         FizzBuzzer fizzbuzzer = new FizzBuzzer();
 
         // Act
-        string actual = fizzbuzzer.RunFzzBuzz(input);
+        string actual = fizzbuzzer.RunFizzBuzz(input);
         
         // Assert
         Assert.That(actual, Is.EqualTo(expected));
