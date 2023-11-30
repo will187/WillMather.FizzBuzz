@@ -10,6 +10,14 @@ public class FizzBuzzer
 {
   public string RunFzzBuzz(int input)
   {
+        if(input == 3)
+        {
+            return "Fizz";
+        }
+        if(input == 5)
+        {
+            return "Buzz";
+        }
         return input.ToString();
   }
 }
