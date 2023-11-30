@@ -10,14 +10,20 @@ public class FizzBuzzer
 {
   public string RunFzzBuzz(int input)
   {
+        string result = string.Empty;
+
         if(input % 3 == 0)
         {
-            return "Fizz";
+            result = "Fizz";
         }
         if(input % 5 == 0)
         {
-            return "Buzz";
+            result += "Buzz";
         }
-        return input.ToString();
+        if(result == string.Empty)
+        {
+            result = input.ToString();
+        }
+        return result;
   }
 }
